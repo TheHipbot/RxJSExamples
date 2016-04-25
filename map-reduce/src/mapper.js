@@ -1,4 +1,7 @@
 var Rx = require('rx');
 
-export.default = function map(url) {
+module.exports = function mapper(url) {
+    return Rx.Observable.create(function (observer) {
+	observer.onComplete();
+    });
 };
