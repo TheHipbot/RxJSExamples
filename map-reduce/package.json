@@ -9,7 +9,9 @@
   "author": "Jeremy \"TheHipbot\" Chambers",
   "license": "MIT",
   "dependencies": {
-    "rx": "^4.1.0"
+    "request": "^2.72.0",
+    "rx": "^4.1.0",
+    "rx-dom": "^7.0.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
